@@ -16,7 +16,7 @@ try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
-	os.system("python2 crack.py")
+	os.system("python2 fb.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser 
 
@@ -25,7 +25,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.21')]
 
 
 def keluar():
@@ -59,15 +59,15 @@ def jalan(z):
 		
 #########LOGO#########
 logo = """
-\033[1;92m ═════════════════════════════   \033[1;91m
-\033[1;92m GUNAKAN SCRIPT INI SEBAIK MUNGKIN!   \033[1;91m
-\033[1;92m ═════════════════════════════   \033[1;91m
-\033[1;92m KARNA SAYA TIDAK AKAN BERTANGGUNG JAWAB  \033[1;91m                                                                                                                                                                                     
-\033[1;92m ═════════════════════════════   
-\033[1;92m JIKA ADA KERUSAKAN ATAU APAPUN!!     \033[1;91m
-\033[1;92m ═════════════════════════════   \033[1;91m
+\033[1;92m ••••••••••••••••••••••••••••••••••   \033[1;91m
+\033[1;92m SALAM DARI ABANG JAGO                \033[1;91m
+\033[1;92m ••••••••••••••••••••••••••••••••••   \033[1;91m
+\033[1;92m GUNAKAN SEBAIK MUNGKIN COKK          \033[1;91m                                                                                                                                                                                     
+\033[1;92m ••••••••••••••••••••••••••••••••••   
+\033[1;92m SELAMAT DATANG!!                     \033[1;91m
+\033[1;92m ••••••••••••••••••••••••••••••••••   \033[1;91m
 \033[1;96mAuthor   : ZXPHOENIX
-\033[1;96mYoutube  : ILAM DDOS CYBER
+\033[1;96mTeam     : DDOS CYBER
 """
 
 def tik():
@@ -106,7 +106,7 @@ def masuk():
 	pilih_masuk()
 
 def pilih_masuk():
-	msuk = raw_input("\033[1;93mBY RikoMrko \033[91m:\033[1;96m ")
+	msuk = raw_input("\033[1;93msilahkan pilih\033[91m:\033[1;96m ")
 	if msuk =="":
 		print"\033[37;1m[\033[32;1m!\033[37;1m] Isi Yg Benar !"
 		pilih_masuk()
